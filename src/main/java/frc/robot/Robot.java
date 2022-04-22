@@ -47,11 +47,10 @@ public class Robot extends TimedRobot {
         storageRight.setInverted(true);
 
 
-        
+        compressor.enableDigital();
         
         
 
-        //double dist = sonic.getRangeInches();
 
     }
     
@@ -59,11 +58,10 @@ public class Robot extends TimedRobot {
     
     @Override
     public void teleopInit() {
-      compressor.enableDigital();
-/*
+      
       solenoid1.set(Value.kForward);
       solenoid2.set(Value.kForward);
-*/
+
      
 
     }
